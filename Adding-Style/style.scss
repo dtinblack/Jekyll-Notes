@@ -10,7 +10,7 @@
 /* Use the variables */
 
 body {
-  background-color: $myBlue;
+  background-color: $bgcolor;
   color: $textcolor;
   font-size: $fontsize;
 }
@@ -21,6 +21,6 @@ h1 {
 }
 
 h2 {
-  font-size: $fontsize;
+  font-size: 40px;
   margin-left: 30px;
 }

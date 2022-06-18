@@ -1,7 +1,9 @@
 # Jekyll-Notes
 
-The following notes were developed while I was learning about Jekyll. They take a [bottom-up approach](https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design) in understanding  Jekyll's [Tech Stack](https://heap.io/topics/what-is-a-tech-stack) and how it works.
+The following notes were developed while I was learning about Jekyll so that I can either use a [Theme](https://jekyllrb.com/docs/themes/) or develop my own. They take a [bottom-up approach](https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design) in understanding  Jekyll's [Tech Stack](https://heap.io/topics/what-is-a-tech-stack) and how it works.
 
 [Jekyll's](https://jekyllrb.com/) website contains a wealth of information including its Github repository where the mechanics of the system can be explored.
 
 [Hello-World](https://github.com/dtinblack/Jekyll-Notes/tree/main/Hello-World) - a minimum version of Jekyll running a default page.  
+
+Adding-Style
