@@ -6,4 +6,8 @@ The following notes were developed while I was learning about Jekyll so that I c
 
 [Hello-World](https://github.com/dtinblack/Jekyll-Notes/tree/main/Hello-World) - a minimum version of Jekyll running a default page.  
 
-Adding-Style
+Style
+
+Liquid
+
+Plugins
