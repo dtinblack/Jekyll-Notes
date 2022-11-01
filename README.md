@@ -8,7 +8,7 @@ The notes are broken down into the following sections:
 
 [Hello-World](https://github.com/dtinblack/Jekyll-Notes/tree/main/Hello-World) - a minimum version of Jekyll running a default page.  
 
-[Style](https://github.com/dtinblack/Jekyll-Notes/tree/main/Style)
+[Style](https://github.com/dtinblack/Jekyll-Notes/tree/main/Style) - adding style sheets to the web site.
 
 [Liquid](https://github.com/dtinblack/Jekyll-Notes/tree/main/Liquid)
 
