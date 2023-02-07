@@ -5,8 +5,75 @@
         <title>Effects</title>
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <link rel="stylesheet" href="style.css">
+<!-- add in the call for the MathJax code - simple version
+          <script type="text/javascript" async
+           src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+        </script>
+-->
+
+<!-- call taken from StackOverflow answer - see README file -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: { autoNumber: "AMS" },
+      tagSide: "right"
+    },
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true
+    }
+  });
+  MathJax.Hub.Register.StartupHook("TeX AMSmath Ready", function () {
+    MathJax.InputJax.TeX.Stack.Item.AMSarray.Augment({
+      clearTag() {
+        if (!this.global.notags) {
+          this.super(arguments).clearTag.call(this);
+        }
+      }
+    });
+  });
+</script>
+<script type="text/javascript" charset="utf-8"
+  src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML">
+</script>
+
     </head>
     <body>
-        <h1>Hello, World!</h1>
+        <h1>Using Mathematics Symbols in Jekyll</h1>
+
+    Basic formula:
+
+<p>
+   \begin{equation}
+      |\psi_1\rangle = a|0\rangle + b|1\rangle
+         \end{equation}
+</p>
+
+    Add equation number:
+
+<p>
+     \begin{equation}
+     E = mc^2 \tag{1}
+     \end{equation}
+</p>
+
+
+    <p>
+    \begin{equation}
+    \label{eq:square}
+    \begin{split}
+       (x+1)^2 &= (x+1)(x+1)\\
+               &= x^2 + 2x + 1
+    \end{split}
+    \end{equation}
+    </p>
+
+    <p>
+    Link to equation \eqref{eq:square}
+    </p>
+
+
     </body>
 </html>
