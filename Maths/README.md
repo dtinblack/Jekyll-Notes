@@ -11,6 +11,8 @@ A stripped back version of Jekyll to test the best way to write mathematical sym
 
 ### Further Reading
 
+[Using MathJax in Jekyll with Markdown](https://jojozhuang.github.io/tutorial/jekyll-math-symbols-with-mathjax/)
+
 [How I blog about math: an update on KaTeX with Jekyll](https://gendignoux.com/blog/2020/05/23/katex.html)
 
 [Using mathjax on GitHub Pages with Jekyll](https://alanduan.me/random/mathjax/)
