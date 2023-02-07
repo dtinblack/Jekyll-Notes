@@ -17,3 +17,5 @@ The notes are broken down into the following sections:
 [Plugins](https://github.com/dtinblack/Jekyll-Notes/tree/main/Plugins)
 
 [RSS-Feed](https://github.com/dtinblack/Jekyll-Notes/tree/main/RSS-Feed)
+
+[Maths](https://github.com/dtinblack/Jekyll-Notes) - testing Mathjax for writing equations.
