@@ -1,10 +1,16 @@
 # Jekyll-Tutorial: Mathematical Symbols
 
-A stripped back version of Jekyll to test the best way to write mathematical symbols in Jekyll.
+A stripped back version of Jekyll to test the best way to write mathematical symbols in Jekyll. Jekyll uses [MathJax](https://docs.mathjax.org/en/latest/index.html) which is an open -source Javascript display engine for LaTeX, MathML and AsciiMath notation. 
+
+The [MathJax API](https://docs.mathjax.org/en/stable/api/index.html) will be referred to throughout this example.
+
+[Configuration options](https://docs.mathjax.org/en/v2.7-latest/options/index.html) - for version 2.
+
+[Tex](https://docs.mathjax.org/en/v2.7-latest/options/input-processors/TeX.html) - for version 2.
 
 ### Folders
 
-
+index.html - includes the call to the MathJax API and examples of conversion form LaTeX into mathematical notation.
 
 ### Files
 
