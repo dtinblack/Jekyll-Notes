@@ -25,6 +25,8 @@ index.html - includes the call to the MathJax API and examples of conversion for
 
 [Automatic Equation Numbering](https://docs.mathjax.org/en/latest/input/tex/eqnumbers.html) - see example [automatic numbering](https://jsfiddle.net/Lordfc0v/2/)
 
+[Clash Between MathJax and Markdown i.e. the underscore](https://docs.mathjax.org/en/v2.7-latest/tex.html)
+
 [Using MathJax in Jekyll with Markdown](https://jojozhuang.github.io/tutorial/jekyll-math-symbols-with-mathjax/)
 
 [How I blog about math: an update on KaTeX with Jekyll](https://gendignoux.com/blog/2020/05/23/katex.html)
