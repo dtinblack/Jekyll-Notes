@@ -13,6 +13,10 @@ _layouts
 
 ### Files
 
+sets.htm - mathematical notation for sets and their manipulation.
+
+interactive.html - revealing the steps in a calculation, algebra or proof. Code taken from [Toggle](https://github.com/mathjax/MathJax-demos-web/blob/master/toggle-steps.html.md) which doesn't require javascript.
+
 _includes/mathjax_header.html -
 
 
