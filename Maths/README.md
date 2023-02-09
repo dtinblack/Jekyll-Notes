@@ -35,9 +35,9 @@ _includes/mathjax_header.html -
 
 #### Code Information
 
-[Configuration of MthJax.Hub.Config](https://docs.mathjax.org/en/v1.0/configuration.html)
+[Configuration of MathJax.Hub.Config](https://docs.mathjax.org/en/v1.0/configuration.html)
 
-[Callback Signal e.g. MathJax.Hub.Register.StartupHook](https://docs.mathjax.org/en/v1.1-latest/signals.html)
+[Callback Signal - Configuring MathJax.Hub.Register.StartupHook](https://docs.mathjax.org/en/v1.1-latest/signals.html)
 
 
 #### Writing Mathematics using MathJax
