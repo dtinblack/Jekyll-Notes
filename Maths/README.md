@@ -56,3 +56,5 @@ _includes/mathjax_header.html -
 <b>Ideas:</b>
 
 [Revel Steps](https://github.com/mathjax/MathJax-demos-web/blob/master/reveal-steps.html.md)
+
+[Toggle](https://github.com/mathjax/MathJax-demos-web/blob/master/toggle-steps.html.md)
