@@ -1,12 +1,9 @@
 # Jekyll-Tutorial: Mathematical Symbols
 
-A stripped back version of Jekyll to test the best way to write mathematical symbols in Jekyll. Jekyll uses [MathJax](https://docs.mathjax.org/en/latest/index.html) which is an open -source Javascript display engine for LaTeX, MathML and AsciiMath notation.
+A stripped back version of Jekyll to test the best way to write mathematical symbols using [MathsJax](https://www.mathjax.org/).
 
-The [MathJax API](https://docs.mathjax.org/en/stable/api/index.html) will be referred to throughout this example.
+For a examples of using MathJax see [MathJax Web Demos](https://github.com/mathjax/MathJax-demos-web)
 
-[Configuration options](https://docs.mathjax.org/en/v2.7-latest/options/index.html) - for version 2.
-
-[Tex](https://docs.mathjax.org/en/v2.7-latest/options/input-processors/TeX.html) - for version 2.
 
 ### Folders
 
@@ -33,6 +30,8 @@ _includes/mathjax_header.html -
 
 [MathJax equation numbers do not show using Jekyll on GitHub Pages](https://stackoverflow.com/questions/59141529/mathjax-equation-numbers-do-not-show-using-jekyll-on-github-pages) - example of automatic numbering using a defined configuration.
 
+[Tex and LaTex Extension](https://docs.mathjax.org/en/latest/input/tex/extensions.html)
+
 #### Code Information
 
 [Configuration of MathJax.Hub.Config](https://docs.mathjax.org/en/v1.0/configuration.html)
@@ -42,8 +41,18 @@ _includes/mathjax_header.html -
 
 #### Writing Mathematics using MathJax
 
+[MathJax Cheatsheet](https://jojozhuang.github.io/tutorial/mathjax-cheat-sheet-for-mathematical-notation/)
+
 [Writing Mathematics for MathJax](https://docs.mathjax.org/en/latest/basic/mathematics.html) -
 
 #### Issues with MathJax and Markdown
 
 [Clash Between MathJax and Markdown i.e. the underscore](https://docs.mathjax.org/en/v2.7-latest/tex.html)
+
+[TeX and LaTeX math delimiters](https://docs.mathjax.org/en/v2.7-latest/tex.html#tex-and-latex-math-delimiters)
+
+[https://docs.mathjax.org/en/latest/input/tex/extensions/require.html](https://docs.mathjax.org/en/latest/input/tex/extensions/require.html) - The require extension defines the non-standard \require macro that allows you to load extensions from within a math expression in a web page.
+
+<b>Ideas:</b>
+
+[Revel Steps](https://github.com/mathjax/MathJax-demos-web/blob/master/reveal-steps.html.md)
