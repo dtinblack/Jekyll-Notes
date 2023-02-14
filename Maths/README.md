@@ -57,6 +57,20 @@ _includes/mathjax_header.html -
 
 [https://docs.mathjax.org/en/latest/input/tex/extensions/require.html](https://docs.mathjax.org/en/latest/input/tex/extensions/require.html) - The require extension defines the non-standard \require macro that allows you to load extensions from within a math expression in a web page.
 
+[How to use LaTeX in Markdown](https://www.fabriziomusacchio.com/blog/2021-08-10-How_to_use_LaTeX_in_Markdown/)
+
+[Markdown and LaTeX introduction](https://ashki23.github.io/markdown-latex.html)
+
+#### MathJax Extensions
+
+[The TeX/LaTeX Extension List](https://docs.mathjax.org/en/latest/input/tex/extensions/index.html) - list of the extensions that can be added to MathJax.
+
+[A Custom Extension](https://docs.mathjax.org/en/latest/web/webpack.html#custom-extension)
+
+[Can I add LaTeX packages to MathJax?](https://stackoverflow.com/questions/21192606/can-i-add-latex-packages-to-mathjax) - suggests that some packages may work.
+
+
+
 <b>Ideas:</b>
 
 [Revel Steps](https://github.com/mathjax/MathJax-demos-web/blob/master/reveal-steps.html.md)
