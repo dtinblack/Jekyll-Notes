@@ -3,13 +3,9 @@ title: Logic
 layout: default
 ---
 
-<p style="text-align: center">
-
-\(P \implies Q\)
-
-</p>
 
 
+<p><b>Direct Proofs</b></p>
 
 <center>
 <p>
@@ -20,28 +16,37 @@ layout: default
 % and between the second and the third columns.
 % The letter ’c’ means the value will be centered within the column,
 % letter ’l’, left-aligned, and ’r’, right-aligned.
-p & q & p \land q\\ % Use & to separate the columns
+p & q & p \implies q\\ % Use & to separate the columns
 \hline % Put a horizontal line between the table header and the rest.
 T & T & T\\
 T & F & F\\
-F & T & F\\
-F & F & F\\
+F & T & T\\
+F & F & T\\
 \end{array}
 \)
 </p>
 </center>
 
+<p>Outline for Direct Proof</p>
+
+<style>
+.box {
+  width: 300px;
+  margin: 10px;
+  height: 250px;
+  border: 2px solid black;
+}
+</style>
+
+<center>
+<div class="box">
 <p>
-
-\begin{prooftree}
-\AxiomC{$\varphi(0)$}
-     \AxiomC{$\varphi(1)$}
-     \AxiomC{$\varphi(2)$}
-     \AxiomC{$\varphi(3)$}
-     \AxiomC{$\ldots$}
-     \QuinaryInfC{$\forall n\varphi(n)$}
-\end{prooftree}
-
-
-
+<b>Proposition</b> If \(P\), then \(Q\).<br><br>
+<i>Proof.</i> Suppose \(P\).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;.<br>
+<br>Therefore \(Q\). &nbsp;&nbsp;&nbsp;&nbsp; &#9726;
 </p>
+</div>
+</center>
