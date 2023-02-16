@@ -69,7 +69,7 @@ _includes/mathjax_header.html -
 
 [Can I add LaTeX packages to MathJax?](https://stackoverflow.com/questions/21192606/can-i-add-latex-packages-to-mathjax) - suggests that some packages may work.
 
-
+[Alphabetical List of TEX Commands available in MathJax](https://onemathematicalcat.org//MathJaxDocumentation/TeXSyntax.htm)
 
 <b>Ideas:</b>
 
