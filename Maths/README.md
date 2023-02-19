@@ -71,6 +71,10 @@ _includes/mathjax_header.html -
 
 [Alphabetical List of TEX Commands available in MathJax](https://onemathematicalcat.org//MathJaxDocumentation/TeXSyntax.htm)
 
+#### Page Format
+
+Description of folders to manage SASS files - https://nazanin-ashrafi.hashnode.dev/how-to-import-sass-in-jekyll
+
 <b>Ideas:</b>
 
 
