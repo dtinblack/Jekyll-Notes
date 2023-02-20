@@ -12,6 +12,8 @@ The notes are broken down into the following sections:
 
 [Style](https://github.com/dtinblack/Jekyll-Notes/tree/main/Style) - adding style sheets to the web site.
 
+[Maths](https://github.com/dtinblack/Jekyll-Notes/tree/main/Maths)
+
 [Liquid](https://github.com/dtinblack/Jekyll-Notes/tree/main/Liquid)
 
 [Plugins](https://github.com/dtinblack/Jekyll-Notes/tree/main/Plugins)
