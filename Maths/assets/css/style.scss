@@ -32,6 +32,7 @@ p {
   font-size: 20px;
 }
 
+// format for box
 
 .boxed {
      border: 2px solid black;
@@ -41,3 +42,12 @@ p {
      padding-left: 10px;
      background-color: coral;
  }
+
+ // center an image
+
+ .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
