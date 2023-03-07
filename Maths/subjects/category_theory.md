@@ -1,0 +1,205 @@
+---
+title: Modular Arithmetic
+layout: default
+---
+<p> <!-- Introduction -->
+
+When mutiplying, subtracting or adding integers the result is always an integer ( a property that mathemeticians call <a href="http://www.cwladis.com/math101/Lecture2Groups.htm">closed</a> ).
+But under division the integers can have instances where they are not closed i.e. \(4 \div 7 \) which is a rational number or \(1 \div 3 \) which is an irrational number.
+One solution is to manage the remainder from a division isn such a way that it remains an integer. <br><br>
+
+It has been observed that when adding two integers together the raminders get added as well. For example, take \( 5 + 7 = 12 \) and consider the remainders when these numbers are divided by \(3\),
+
+
+
+
+
+</p><br>
+
+
+
+
+
+
+<div class="boxed"> <!--  Section 1 -->
+<p>
+
+<center><h1> SECTION I</h1></center><br>
+<center><p>CONGRUENT NUMBERS IN GENERAL</p></center><br>
+
+</p>
+<p>
+
+\(\blacktriangleright\)1. If a number \(a\) divides the difference of the numbers \(b\) and \(c\),
+Congruent numbers, \(b\) and \(c\) are said to be <i>congruent relative</i> to \(a\); if not, b and c are
+moduli, residues, and nonresidues noncongruent. The number \(a\) is called the <i>modulus</i>. If the numbers
+b and c are congruent, each of them is called a residue of the other.
+If they are noncongruent they are called nonresidues.
+
+<div class="tab">
+<p>
+
+The numbers involved must be positive or negative integers,a not
+fractions. For example, - 9 and + 16 are congruent relative to 5;
+-7 is a residue of +15 relative to 11, but a nonresidue relative to 3.
+</p>
+</div> <!--  Section 1 -->
+
+<div class="tab">
+  <p>
+     Since every number divides zero, it follows that we can regard
+     any number as congruent to itself relative to any modulus.
+  </p>
+</div>
+
+</p>
+</div> <!--  Section 1 -->
+
+<p> Need some text for section 1</p><br>
+
+
+<div class="boxed">
+  ,
+  .._ 2. Given a, all its residues modulo m are contained in the
+  formula a+ km where k is an arbitrary integer. The easier prop-
+  ositions that we state below follow at once from this, but with
+  equal ease they can be proved directly.
+  Henceforth we shall designate congruence by the symbol ==,
+  joining to it in parentheses the modulus when it is necessary to
+  d o s o ; e . g . - 7 = 1 5 ( m o d . 1 1 ) , - 1 6 == 9 ( m o d . S ) . b
+
+</div>
+
+<p> Need some text </p><br>
+
+<div class="boxed">
+<p>
+3. THEOREM. Let m successive integers a, a + 1, a + 2, ... a + m - 1 and another integer A be given; then one, and only one, of these integers will be congruent to A relative to m.
+  If(a- A)/misanintegerthena==A;ifitisafraction,letk be the next larger integer (or if it is negative, the next smaller integer not regarding sign). A + km wilt fall between a and a + m and will be the desired number. Evidently all the quotients
+  (a - A)/m, (a +1- A)/m, (a +2- A)/m, etc. lie between k - 1
+  and k + 1, so only one of them can be an integer.
+</p>
+</div>
+
+<p> Need some text </p><br>
+
+<div class="boxed">
+<p>
+
+
+
+</p>
+</div>
+
+<p> Need some text </p><br>
+
+<div class="boxed">
+<p>
+
+
+
+</p>
+</div>
+
+<p> Need some text </p><br>
+
+<div class="boxed">
+<p>
+
+
+
+</p>
+</div>
+
+<p> Need some text </p><br>
+
+<div class="boxed">
+<p>
+
+
+
+</p>
+</div>
+
+<p> Need some text </p><br>
+
+<div class="boxed">
+<p>
+
+
+
+</p>
+</div>
+
+<p> Need some text </p><br>
+
+<div class="boxed">
+<p>
+
+
+
+</p>
+</div>
+
+<p> Need some text </p><br>
+
+<div class="boxed">
+<p>
+
+
+
+</p>
+</div>
+
+<p> Need some text </p><br>
+
+<div class="boxed">
+<p>
+
+
+
+</p>
+</div>
+
+<p> Need some text </p><br>
+
+
+
+
+
+
+<p>
+Meanings of words used:<br>
+<a href="https://dictionary.cambridge.org/dictionary/english/residue">residue</a>
+<a href="https://dictionary.cambridge.org/dictionary/english/congruent">congruent</a>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>
+Congruence is an equivalence relation, if a and b are congruent modulo n, then
+they have no difference in modular arithmetic under modulo n. Represented by \(a \equiv b \; (\bmod\; n)\).
+Other representations are: <br><br>
+\( a = b + nk \) where \( k \in \mathbb{Z} \),<br><br>
+and<br><br>
+\(n \textbf{|} ( a - b )\).<br><br>
+
+Example: <br><br>
+
+\(7 \equiv 4 \; (\bmod\; 3 )\), can be represented as:<br><br>
+
+\(3 | ( 7 - 4 )\), or<br><br>
+
+\( 7 = 4 + 3n \) where \(n \in \mathbb{Z}\).
+
+</p>
