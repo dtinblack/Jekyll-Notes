@@ -4,18 +4,52 @@ layout: default
 ---
 
 <p>
- Investiagting how the different levels of structure affect the the different levels of absract algebra.
-
+ Investiagting how the different levels of structure affect the abstract algebra concepts.
 </p>
 
 <p>
 
-<b>Monoid</b><br>
+<b><a href="https://en.wikipedia.org/wiki/Semigroup">Semigroup</b></a>
+<br><br>
 
-<b>Semi-Group</b><br>
+A semigroup is a set \(S\) together with a binary operation "\( \bullet \)" ( that is a function \( \bullet : S \times S \rightarrow S \))
+that satisfies the following axiom:
 
-<b>Group</b><br>
+<br><br>
+<i>Associativity:</i> For all \(a,b,c \in S \), the equation \( ( a \bullet b ) \bullet c = a \bullet ( b \bullet c ) \) holds.
+<br><br>
 
+<b><a href="https://en.wikipedia.org/wiki/Monoid">Monoid</a></b>
+<br><br>
+
+A monoid is a set \(S\) with a binary operation "\( \bullet \)" i.e. \( \bullet : S \times S \rightarrow S \) with the following axioms:
+
+<br><br>
+<i>Associativity:</i> For all \(a,b,c \in S \), the equation \( ( a \bullet b ) \bullet c = a \bullet ( b \bullet c ) \) holds.
+<br><br>
+
+<i>Identity Element:</i> there exists an element \(e\) in \(S\) such that for \(a \in S \),
+the equalities \( e \bullet a = a \) and \( a \bullet e = a \) holds.
+
+<br><br>
+
+<b><a href="https://en.wikipedia.org/wiki/Group_(mathematics)">Group</a></b><br><br>
+
+A group is a set \(G\) with a binary operation "\( \bullet \)" i.e. \( \bullet : G \times G \rightarrow G \) with the following axioms:
+
+<br><br>
+<i>Associativity:</i> For all \(a,b,c \in G \), the equation \( ( a \bullet b ) \bullet c = a \bullet ( b \bullet c ) \) holds.
+<br><br>
+
+<i>Identity Element:</i> there exists an element \(e\) in \(G\) such that for \(a \in G \),
+the equalities \( e \bullet a = a \) and \( a \bullet e = a \) holds.
+<br><br>
+<i>Inverse:</i> For each \( a \in G\), there exists an element \( b \in G \) such that \(a \bullet b = e \) and \( b \bullet e = a \) where \(e \) is the identity element.
+For each \(a\), the element \(b\) is unigue; it is the inverse of \(a\) and is typically denoted by \( a^{-1} \).
+
+
+
+<br><br>
 <b>Ring</b><br>
 
 
