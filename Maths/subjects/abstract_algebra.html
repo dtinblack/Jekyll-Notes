@@ -1,0 +1,235 @@
+---
+title: General Notation
+layout: default
+---
+
+<p>
+
+  $$
+  \|f\|_{L^p(\Omega)} = \left( \int_{\Omega} |f(x)|^p \mathrm{d}x \right)^{1/p}
+  $$
+
+</p>
+
+
+
+
+
+<p style=text-align: right>
+\(
+\newcommand{\qed}{\blacksquare}
+\qed
+\)
+</p>
+
+
+
+<center>
+<p>
+\(
+\begin{array}{|c c|c|}
+% |c c|c| means that there are three columns in the table and
+% a vertical bar ’|’ will be printed on the left and right borders,
+% and between the second and the third columns.
+% The letter ’c’ means the value will be centered within the column,
+% letter ’l’, left-aligned, and ’r’, right-aligned.
+p & q & p \land q\\ % Use & to separate the columns
+\hline % Put a horizontal line between the table header and the rest.
+T & T & T\\
+T & F & F\\
+F & T & F\\
+F & F & F\\
+\end{array}
+\)
+</p>
+</center>
+
+<p>
+
+\begin{prooftree}
+\AxiomC{$\varphi(0)$}
+     \AxiomC{$\varphi(1)$}
+     \AxiomC{$\varphi(2)$}
+     \AxiomC{$\varphi(3)$}
+     \AxiomC{$\ldots$}
+     \QuinaryInfC{$\forall n\varphi(n)$}
+\end{prooftree}
+
+
+
+</p>
+
+
+
+
+
+<p>
+
+    Basic formula: $$ x = y + 1 $$
+
+</p>
+
+<p>
+   \begin{equation}
+      |\psi_1\rangle = a|0\rangle + b|1\rangle
+         \end{equation}
+</p>
+
+    Add equation number:
+
+<p>
+     \begin{equation}
+     E = mc^2 \tag{1}
+     \end{equation}
+</p>
+
+
+    <p>
+    \begin{equation}
+    \label{eq:square}
+    \begin{split}
+       (x+1)^2 &= (x+1)(x+1)\\
+               &= x^2 + 2x + 1
+    \end{split}
+    \end{equation}
+    </p>
+
+    <p>
+    Link to equation \eqref{eq:square}
+    </p>
+
+
+    <p>
+When $a \ne 0$, there are  two solutions to $(ax^2 + bx + c = 0)$ and they are
+
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+
+$$\mathbf{\alpha + b = \Gamma \div D}$$
+
+$$
+\begin{array}{lcr}
+\mbox{First number} & x & 8 \\
+\mbox{Second number} & y & 15 \\
+\mbox{Sum} & x + y & 23 \\
+\mbox{Difference} & x - y & -7 \\
+\mbox{Product} & xy & 120
+\end{array}\]
+$$
+
+$$\bigtriangledown _{x} f(\mathbf{x})$$
+
+
+$$
+\left| \begin{array}{cc} x_{11} & x_{12} \\ x_{21} & x_{22} \end{array} \right|
+$$
+
+And another equation: $X_i$</p>
+
+<p>
+
+$$\sum_{n=1}^{\infty} 2^{-n} = 1$$
+
+$$\lim_{x\to\infty} f(x)$$
+
+$$\forall p=1,\ldots,n.$$
+
+$$1+1=2 \hspace{20 mm} (1)$$
+
+</p>
+
+<p>
+
+$$\mathbb{N} = \{1,2,3,4,5 ...\}$$
+
+$$ \mathbb{N}=\{1,2,3,\ldots,\infty\} $$
+
+</p>
+
+<p>
+$$
+
+
+ \left[  \frac{ N } { \left( \frac{L}{p} \right)  - (m+n) }  \right]
+
+
+$$
+
+</p>
+
+<p>
+
+  The
+  $\chi(\lambda)$ of the
+  $3 \times 3$~matrix
+  \[ \left( \begin{array}{ccc}
+  a & b & c \\
+  d & e & f \\
+  g & h & i \end{array} \right)\]
+  is given by the formula
+  \[ \chi(\lambda) = \left| \begin{array}{ccc}
+  \lambda - a & -b & -c \\
+  -d & \lambda - e & -f \\
+  -g & -h & \lambda - i \end{array} \right|.\]
+
+</p>
+
+
+Physics symbols
+
+<p>
+\(
+\require{physics}
+\begin{pmatrix}
+\imat{2} \\ a & b
+\end{pmatrix}
+\\
+\bra{\phi}\ket{\psi}
+\ip{a}{b}
+\)
+</p>
+
+<p>
+
+<b>Notes:</b><br>
+
+<a href ="https://golem.ph.utexas.edu/~distler/WebTeX/docs/wtxsec7.html">Arrays, Tables and Matrices</a>
+
+</p>
+
+
+<style>
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+</style>
+
+<button onclick="myFunction()">Try it</button>
+
+<div id="myDIV">
+This is my DIV element.
+</div>
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+
+
+</div>
+
+    </body>
+</html>
