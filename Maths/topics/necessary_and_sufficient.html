@@ -3,25 +3,28 @@ title: Necessary and Sufficient Conditions
 layout: default
 ---
 
+<p>Let's start by defining a few shapes which will be used to understand how logic is used.</p>
+
 <p>Some definitions:</p>
 
 <p>A <b>quadrilateral</b> is a plane figure bounded by <i>four</i> straight lines.<p>
 
-<p>A <b>square</b> is a four-sided fiqure which has all its sides equal and all of its angles are right angles.</p>
+<p>A <b>square</b> is a four-sided shape which has all its sides equal and all its angles are right angles.</p>
 
 <p>An <b>oblong</b> is a four sided fiqure which has all of its angles right angles, but not all of its sides equal.</p>
 
+<p>A <b>rhombus</b> is a four-sided shape which has all its sides equal, but its angles are not right angles.
 
-<p>Let<br><br>
+<p>Using the following statements ( can either be true or false )<br><br>
 \(P\) = "the shape is a square" and <br>
 \(Q\) = "the shape has four sides of equal length"
 </p>
 
 <!-- Sufficient conditions section -->
 
-<h1>Sufficient Conditions</h1>
+<p><b>Sufficient Conditions - If, then</b></p>
 
-<br>
+
 <p>Using the following Truth Table:</p>
 <br>
 
@@ -53,19 +56,19 @@ F & F & T & ( iv )\\
 
 <p><b>Case (i): If</b> <i>the shape is a square</i><b>, then</b> <i>the shape has four sides of equal length</i>.
 <br>
-<br>The statement is True.</p>
+<br>From the definition above the statement is true.</p>
 
 <p><b>Case (ii): If </b> <i>the shape is a square</i><b>, then <i></b>the shape doesn't have four sides of equal length.</i>
 <br>
-<br>The statement is False.</p>
+<br>The statement is false because by the definition of a square it must have four equal sides, therefore the statemenmt is false.</p>
 
 <p><b>Case (iii): If </b><i>the shape is not a square</i><b>, then </b><i>the shape has four sides of equal length</i>.
 <br>
-<br>The statement is True.</p>
+<br>Although the shape may not be square it can still have four equal sides e.g. a rhombus, therefore the statement is true.</p>
 
 <p><b>Case (iv): If </b><i>the shape is not a square</i><b>, then</b> <i>"the shape does not have four sides of equal length".</i>
 <br>
-<br>The statement is False</p>
+<br>From the definition of a square therefore the statment is true.</p>
 
 <p><br>
 The condition of P being true is enough (i.e. sufficient ) to make Q true; hence "\(P\) is a sufficient condition for \(Q\)."
@@ -73,9 +76,8 @@ The condition of P being true is enough (i.e. sufficient ) to make Q true; hence
 
 <!-- Necessary conditions section -->
 
-<h1>Necessary Conditions</h1>
+<p><b>Necessary Conditions</b></p>
 
-<br>
 <p>Using the following Truth Table:</p>
 <br>
 
@@ -92,11 +94,11 @@ The condition of P being true is enough (i.e. sufficient ) to make Q true; hence
 % and between the second and the third columns.
 % The letter ’c’ means the value will be centered within the column,
 % letter ’l’, left-aligned, and ’r’, right-aligned.
-P & Q & P \implies Q\\  % Use & to separate the columns
+P & Q & Q \implies P\\  % Use & to separate the columns
 \hline % Put a horizontal line between the table header and the rest.
 T & T & T & ( i )\\
-T & F & F & ( ii )\\
-F & T & T & ( iii )\\
+T & F & T & ( ii )\\
+F & T & F & ( iii )\\
 F & F & T & ( iv )\\
 \end{array}
 \)
@@ -105,7 +107,7 @@ F & F & T & ( iv )\\
 
 <br>
 
-<p><b>Case (i): If</b> <i>the shape is a square</i><b>, then</b> <i>the shape has four sides of equal length</i>.
+<p><b>Case (i): If</b> <i>the shape has four sides</i><b>, then</b> <i>the shape is a square</i>.
 <br>
 <br>The statement is True.</p>
 
@@ -127,7 +129,7 @@ The condition of P being true is enough (i.e. sufficient ) to make Q true; hence
 <!-- Necessary and Sufficient conditions section -->
 
 
-<h1>Necessary and Sufficient Conditions</h1>
+<p><b>Necessary and Sufficient Conditions - If, and only if</b></p>
 
 <br>
 <p>Using the following Truth Table:</p>
@@ -146,11 +148,11 @@ The condition of P being true is enough (i.e. sufficient ) to make Q true; hence
 % and between the second and the third columns.
 % The letter ’c’ means the value will be centered within the column,
 % letter ’l’, left-aligned, and ’r’, right-aligned.
-P & Q & P \implies Q\\  % Use & to separate the columns
+P & Q & P \iff Q\\  % Use & to separate the columns
 \hline % Put a horizontal line between the table header and the rest.
 T & T & T & ( i )\\
 T & F & F & ( ii )\\
-F & T & T & ( iii )\\
+F & T & F & ( iii )\\
 F & F & T & ( iv )\\
 \end{array}
 \)
