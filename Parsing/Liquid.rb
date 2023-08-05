@@ -4,13 +4,6 @@ require 'liquid'
 
 # read a liquid file ( with a markdown extension )
 
-liquid = File.read("liquid_test.md")
+template = Liquid::Template.parse( File.read("liquid_test.template") )
 
-html = Liquid::Template.parse(liquid)
-html1 = html.render()
-
-test = Liquid::Template.parse("hi {{ name }}" )
-test1 = test.render('name' => 'David')
-puts test1
-
-puts html1
+puts template.render('name' => 'David')
