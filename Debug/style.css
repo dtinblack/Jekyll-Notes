@@ -1,0 +1,15 @@
+/* Simple changes to the style of an HTML page */
+
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
