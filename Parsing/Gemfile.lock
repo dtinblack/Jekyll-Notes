@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    kramdown (2.4.0)
+      rexml
+    liquid (5.4.0)
+    rexml (3.2.6)
+    safe_yaml (1.0.5)
+
+PLATFORMS
+  x86_64-darwin-21
+
+DEPENDENCIES
+  kramdown
+  liquid
+  safe_yaml
+
+BUNDLED WITH
+   2.4.18

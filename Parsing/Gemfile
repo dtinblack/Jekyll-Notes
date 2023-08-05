@@ -1,0 +1,14 @@
+source "https://rubygems.org"
+# gems required to test and understand the parsing gems
+
+# parsing yaml files
+
+gem "safe_yaml"
+
+# parsing liquid files
+
+gem "liquid"
+
+# parsing markdown files
+
+gem "kramdown"
