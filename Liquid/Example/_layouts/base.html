@@ -2,13 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>Liquid Examples</title>
     <link rel="stylesheet" href="style.css">
   </head>
+
+        {% include header.html %}
   <body>
 
-    <section>
-      <p>File from _includes folder added<p>
-    </section>
+       {{ content }}
+
+       {% include footer.html %}
   </body>
+
 </html>

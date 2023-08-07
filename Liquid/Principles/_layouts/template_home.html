@@ -1,0 +1,16 @@
+---
+layout: template_base
+title: Home Template
+---
+
+<p>Template - Home</p>
+
+
+{{ content }}
+
+{% for post in site.posts %}
+  <p><b>{{ post.title }}</b></p>
+  <p>{{ post.content }}</p>
+{% endfor %}
+
+<p>{{ page.name }}</p>
