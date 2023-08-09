@@ -3,9 +3,7 @@ title: Necessary and Sufficient Conditions
 layout: default
 ---
 
-<p>Let's start by defining a few shapes which will be used to understand how logic is used.</p>
-
-<p>Some definitions:</p>
+<p>To help discuss conditional statements lets describe a world of shapes:</p>
 
 <p>A <b>quadrilateral</b> is a plane figure bounded by <i>four</i> straight lines.<p>
 
@@ -58,29 +56,30 @@ F & F & T & ( iv )\\
 
 <br>
 
-<p><b>Case (i): If</b> <i>the shape is a square</i><b>, then</b> <i>the shape has four sides of equal length</i>.
+<p><b>Case (i): If</b> <i>the shape is a square</i><b>, then</b> <i>it has four sides of equal length.</i>.
 <br>
-<br>From the definition of a square the above the statement is true.</p>
+<br>From the description of a square the statement is true.</p>
 
-<p><b>Case (ii): If </b> <i>the shape is a square</i><b>, then <i></b>the shape doesn't have four sides of equal length.</i>
+<p><b>Case (ii): If </b> <i>the shape is a square</i><b>, then <i></b>it doesn't have four sides of equal length.</i>
 <br>
-<br>The statement is false because by the definition of a square it must have four equal sides, therefore the statemenmt is false.</p>
+<br>From the description of a square the statement is false because must have four equal sides.
 
-<p><b>Case (iii): If </b><i>the shape is not a square</i><b>, then </b><i>the shape has four sides of equal length</i>.
+<p><b>Case (iii): If </b><i>the shape is not a square</i><b>, then </b><i>it has four sides of equal length.</i>.
 <br>
 <br>Although the shape may not be square it could still have four equal sides e.g. a rhombus, therefore the statement is true.</p>
 
-<p><b>Case (iv): If </b><i>the shape is not a square</i><b>, then</b><i>"the shape does not have four sides of equal length".</i>
+<p><b>Case (iv): If </b><i>the shape is not a square</i><b>, then</b><i>it does not have four sides of equal length.</i>
 <br>
-<br>From the definition of a square the statment is true.</p>
+<br>From the description of a square the statment is true.</p>
 
 <p><br>
-The condition of P being true is enough ( i.e. sufficient ) to make Q true; hence "\(P\) is a sufficient condition for \(Q\)."
+The condition of P being true is enough ( i.e. sufficient ) to make Q true; hence "\(P\) is a sufficient condition for \(Q\)." In the world of shapes then being a
+square is a sufficent condition for it to have four sides.
 
 
 <!-- Necessary conditions section -->
 
-<p><b>Necessary Conditions</b></p>
+<p><b>Necessary Conditions - only if</b></p>
 
 <p>Using the following Truth Table:</p>
 <br>
@@ -113,23 +112,30 @@ F & F & T & ( iv )\\
 
 <p><b>Case (i): If</b> <i>the shape has four sides</i><b>, then</b> <i>the shape is a square</i>.
 <br>
-<br>The statement is True.</p>
+<br>From the definiion of a square the statement is True.</p>
 
-<p><b>Case (ii): If </b> <i>the shape is a square</i><b>, then <i></b>the shape doesn't have four sides of equal length.</i>
+<p><b>Case (ii): If </b> <i>the shape has four sides</i><b>, then <i></b>the shape isn't a square.</i>
 <br>
-<br>The statement is False.</p>
+<br>Although the shape has four sides it doesn't have to be a square, for example a rhombus, therefore the statement is true.
+</p>
 
-<p><b>Case (iii): If </b><i>the shape is not a square</i><b>, then </b><i>the shape has four sides of equal length</i>.
+<p><b>Case (iii): If </b><i>the shape doesn't have four sides</i><b>, then </b><i>the shape has four sides of equal length</i>.
 <br>
-<br>The statement is True.</p>
+<br>From the definition of a square the statement is false. </p>
 
-<p><b>Case (iv): If </b><i>the shape is not a square</i><b>, then</b> <i>"the shape does not have four sides of equal length".</i>
+<p><b>Case (iv): If </b><i>the shape does not have four sides of equal length</i><b>, then</b> <i>the shape is not a square</i>
 <br>
-<br>The statement is False</p>
+<br>From the defintion of a square then the statement is true.</p>
 
 <p><br>
 
-The condition of P being true is enough (i.e. sufficient ) to make Q true; hence "\(P\) is a sufficient condition for \(Q\)."
+Note that the statement \(P \implies Q\) being true means that it is impossible that \(P\) is
+true but \(Q\) is false, so in order for \(P\) to be true it is necessary that \(Q\) is true;
+hence "<i>\(Q\) is a necessry condition for \(P\).</i>" And this means that \(P\) can only
+be true if \(Q\) is true i.e., <i>"\(P\) only if \(Q\)"</i> for the example, to have four sides is
+a necessary condition for the shape to be a square.
+
+
 
 <!-- Necessary and Sufficient conditions section -->
 
@@ -166,21 +172,22 @@ F & F & T & ( iv )\\
 
 <br>
 
-<p><b>Case (i): If</b> <i>the shape is a square</i><b>, then</b> <i>the shape has four sides of equal length</i>.
+<p><b>Case (i): If</b> <i>the shape is a square</i><b>, then</b> <i>the shape has four sides of equal length</i> <b>AND</b> If</b> <i>the shape has four sides</i><b>, then</b> <i>the shape is a square</i> .
 <br>
 <br>The statement is True.</p>
 
-<p><b>Case (ii): If </b> <i>the shape is a square</i><b>, then <i></b>the shape doesn't have four sides of equal length.</i>
+<p><b>Case (ii): If </b> <i>the shape is a square</i><b>, then <i></b>the shape doesn't have four sides of equal length.<b>AND</b>If</b> <i>the shape has four sides</i><b>, then</b> <i>the shape is a square</i></i>
 <br>
 <br>The statement is False.</p>
 
-<p><b>Case (iii): If </b><i>the shape is not a square</i><b>, then </b><i>the shape has four sides of equal length</i>.
+<p><b>Case (iii): If </b><i>the shape is not a square</i><b>, then </b><i>the shape has four sides of equal length<b>AND</b>If</b> <i>the shape has four sides</i><b>, then</b> <i>the shape is a square</i></i>.
 <br>
 <br>The statement is True.</p>
 
-<p><b>Case (iv): If </b><i>the shape is not a square</i><b>, then</b> <i>"the shape does not have four sides of equal length".
+<p><b>Case (iv): If </b><i>the shape is not a square</i><b>, then</b> <i>"the shape does not have four sides of equal length</i> <b>AND</b>If</b> <i>the shape has four sides</i><b>, then</b> <i>the shape is a square</i>.
 <br>
 <br>The statement is False</p>
 
 <p><br>
-The condition of P being true is enough (i.e. sufficient ) to make Q true; hence "\(P\) is a sufficient condition for \(Q\)."
+
+If P, then Q being true, the converse statment "If Q, then P" is also true.
