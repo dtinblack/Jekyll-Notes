@@ -9,12 +9,16 @@ In Alan Turing's article:
 <a href="https://www.ivanociardelli.altervista.org/wp-content/uploads/2018/04/Solvable-and-unsolvable-problems.pdf">Solvable and Unsolvable Problems</a>
 he developes an argument to show that that certain types of problem are unsolvable. The early part of the paper
 discusses various puzzles such as <a href="https://www.artbylogic.com/puzzles/numSlider/numberShuffle.htm">sliding puzzles</a> that show a substitution puzzle.
-Turing goes on to say that a lot of problems includding proffs in axiom systems, can be <i>normalized</b> to substition puzzles. The paper leads onto the following argument
+Turing goes on to say that a lot of problems includding proofs in axiomatic systems, can be <i>normalized</i> to substition puzzles. The paper leads onto the following argument
 which is described in the form of a thereom. But first some definitions and properties:
 <br>
 <br>
+A puzzle 'comes out' if one reaches the position \(B\) or the position \(W\), and the rules do not permit any further moves.
+<br>
+<br>
 Let \(P(R,S)\) be the puzzle whose rules are described by the row of sympbols \(R\) and whose
-starting position is described by \(S\). There is no reason why we can not let the rules be the starting position \(P(R,R)\).
+starting position is described by \(S\). There is no reason why we can not let the rules be the starting
+position \(P(R,R)\) because \(R\) is just another row of symbols which discussed in previous sections ofthe paper.
 The moves ( or rules ) are unambiquous that is there can be no choice. A puzzle 'comes out' if it reaches the position black \(B\) or white \(W\).
 In otherwords it has reached an end point which we have defined.
 </p>
@@ -30,7 +34,7 @@ Class II: is to include all of the other cases.
 <p>
   <br>
   The <b>Theorem</b> to be proven is: <i>There is no systematic proceedure by which one can tell whether a puzzle
-  is solvable.</i>
+  is comes out.</i>
   <br>
   <br>
   Turing proves the thereom by using <i><a href="https://en.wikipedia.org/wiki/Reductio_ad_absurdum">Reductio ad absurdum</i></a> which attempts to establish a claim showing that the
@@ -39,11 +43,12 @@ Class II: is to include all of the other cases.
   <br>
 <b>Proof:</b>
 <br><br>
-Assume that we have a proceedure that is able to distinquish rules of Class I from Class II. The systematic proceddure fr distinquishing
-between the two classes can be put in the form of a subsitition puzzle, \(K\) therefore \(P(K,R)\).
+Assume that we have a proceedure that is able to distinquish rules of Class I from Class II. The systematic proceddure for distinquishing
+between the two classes can be put in the form of a subsitition puzzle, let us call it \(K\) therefore \(P(K,R)\).
 <br><br>
-Since the proceedure always gives an answer then the puzzle \(P(K,R)\) always comes out. Assume that the puzzle \(K\) gives a result \(B\) for
-rules of Class I, and \(W\) for rules of class II. In sumary the puzzle with rules \(K\) has the following
+Since the proceedure always gives an answer, because it decides which class \(R\) falls into, then the puzzle \(P(K,R)\) always comes out.
+Note that we are free to decide how the puzzle \(K\) announces its result, therefore we can let the puzzle \(K\)
+gives a result \(B\) for rules of Class I, and \(W\) for rules of class II. In sumary the puzzle with rules \(K\) has the following
 properties:
 <br><br>
 (i) \(K\) has unambiquous moves.
@@ -59,5 +64,6 @@ If we ask which class \(K\) belongs too we find that the properties are inconsis
 of the two classes. The puzzle \(P(K,K)\) is bound to come out, but thge properties of \(K\) tell us
 that we must get end result \(B\)
 if \(K\) is in class I and \(W\) if it is class II, where as the definitions of the classess tell us that the end results
-must be the other way around.
+must be the other way around. Therefore the assumption thatg there is a systematic proceedure for telling whether a puzzle comes
+out has been reduced to a contradiction.
 </p>
