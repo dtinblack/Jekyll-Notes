@@ -1,0 +1,63 @@
+---
+title: Notation For Sets
+layout: default
+---
+
+<p>
+
+Notation for a basic set: $$\{2, 4, 6, 8\dots\}$$
+
+Notation for a subset:
+\begin{equation}
+  \mathbb{Z}\subset\mathbb{Q} \\
+  \mathbb{Z}=\{\ldots,-2,-1,0,1,2,\ldots\}
+\end{equation}
+
+Notation for the set of integers:
+
+\begin{equation}
+  {\bigcap}_{i=0}^k \\
+  \bigcap^n_{i=0}
+\end{equation}
+
+Topological Space $$(\mathbb{Z}, T )$$
+
+$$\{x \mid x \text{ is positive and even}\}$$
+
+</p>
+
+<h2>An Identity of Ramanujan</h2>
+
+   <p>\[
+      \frac{1}{(\sqrt{\phi \sqrt{5}}-\phi) e^{\frac25 \pi}} =
+        1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
+         {1+\frac{e^{-8\pi}} {1+\ldots} } } }
+   \]</p>
+
+<p>Finally, while display equations look good for a page of samples, the
+    ability to mix math and text in a paragraph is also important.  This
+    expression \(\sqrt{3x-1}+(1+x)^2\) is an example of an inline equation.  As
+    you see, MathJax equations can be used this way as well, without unduly
+    disturbing the spacing between lines.</p>
+
+<h2>Using an external module</h2>
+
+<p>\(\require{enclose} \enclose{circle}{x}\)</p>
+
+<h2>Toggle Steps</h2>
+
+$$
+\require{action}
+\def\longest{x(x+1) + 1(x+1)}
+\def\click{\rlap{\enclose{roundedbox}{\small\text{next step}}}\hphantom{\longest}}
+\def\={\phantom{ {}={} }}
+(x+1)^2
+\toggle
+  {\begin{aligned}[t]& = \click\end{aligned}}
+  {\begin{aligned}[t]& = (x+1)(x+1)\\[3px]&\=\click\end{aligned}}
+  {\begin{aligned}[t]& = (x+1)(x+1)\\[3px]& = x(x+1) + 1(x+1)\\&\=\click\end{aligned}}
+  {\begin{aligned}[t]& = (x+1)(x+1)\\[3px]& = x(x+1) + 1(x+1)\\[3px]& = (x^2+x) + (x+1)\\[3px]&\=\click\end{aligned}}
+  {\begin{aligned}[t]& = (x+1)(x+1)\\[3px]& = x(x+1) + 1(x+1)\\[3px]& = (x^2+x) + (x+1)\\[3px]& = x^2 + (x + x) + 1\\[3px]&\=\click\end{aligned}}
+  {\begin{aligned}[t]& = (x+1)(x+1)\\[3px]& = x(x+1) + 1(x+1)\\[3px]& = (x^2+x) + (x+1)\\[3px]& = x^2 + (x + x) + 1\\[3px]& = x^2 + 2x + 1\end{aligned}}
+\endtoggle
+$$
