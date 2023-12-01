@@ -3,27 +3,20 @@ title: Background To "On Computable Numbers"
 layout: default
 ---
 
-The following is a Road Map for Alan Turing's paper: [On Computable Numbers](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf). Each section includes the general idea and where appropriate mathematical proofs showing their logical structure. 
-
+The following is a road map for the mathematics that underly Alan Turing's paper: [On Computable Numbers](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf). Each section includes the general ideas to the concepts under discussion, and where appropriate mathematical proofs. Where mathematical proofs are discussed the underlying logical structures are shown.  
+<br>
+<br>
 <b>A. $$ |\mathbb{N}| = |\mathbb{E}| $$</b>
 <br>
 <br>
-Introduce bijective functions and denumerability. Show underlying logic for contraposition and <i>Reduction ad Absurdum</i>
+Introduce the connection between [bijective functions](/topics/functions.html) and denumerability with an example. 
 <br>
 <br>
 $$
-\begin{array}{|c c|c| c }
-% |c c|c| means that there are three columns in the table and
-% a vertical bar ’|’ will be printed on the left and right borders,
-% and between the second and the third columns.
-% The letter ’c’ means the value will be centered within the column,
-% letter ’l’, left-aligned, and ’r’, right-aligned.
-P & Q & P \implies Q\\  % Use & to separate the columns
+\begin{array}{ c | c c c c c c }
+n & 1 & 2 & 3 & 4 & 5 & ... \\  % Use & to separate the columns
 \hline % Put a horizontal line between the table header and the rest.
-T & T & T & ( i )\\
-T & F & F & ( ii )\\
-F & T & T & ( iii )\\
-F & F & T & ( iv )\\
+f(n) & 2 & 4 & 6 & 8 & 10 & ... \\
 \end{array}
 $$
 <br>
@@ -60,10 +53,16 @@ How the diagonalisation argument can be extended to any properties which will be
 <br>
 <b>G. Goedel's Proof</b>
 
-[Goedel's Proof by Ernst Nagel and James R. Newman](https://calculemus.org/cafe-aleph/raclog-arch/nagel-newman.pdf) - see Richardson's Paradox ( where would it sit with Quine's classification of Paradoxes? )
+[Goedel's Proof by Ernst Nagel and James R. Newman](https://calculemus.org/cafe-aleph/raclog-arch/nagel-newman.pdf) - see Richardson's Paradox ( where would it sit with Quine's classification of Paradoxes? ) and how it is used to describe the metalanguage idea.
 
 <br>
 <br>
 <b>H. Turing's Undecidability ( or unsolvability )</b>
+<br>
+<br>
+
+<br>
+<br>
+<b>?. Lambda Calculus and Turing's Undecidability ( or unsolvability )</b>
 <br>
 <br>
