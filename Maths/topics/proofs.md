@@ -1,9 +1,11 @@
 ---
-title: Proofs
+title: Mathematical Proofs
 layout: default
 ---
 
-
+<p>
+Examples of proof <a href="#note1"><sup>[1]</sup></a>
+</p>
 
 <p style="text-align: left">Terence Tao (<i>Analysis I</i>, p. 25, n. 4):</p>
 
@@ -20,8 +22,9 @@ A <b>corollary</b> is a quick consequence of a proposition or theorem that was p
 
 </p>
 
-
-
+<p>
+Examples of proof <a href="#1"><sup>1</sup></a>
+</p>
 
 <p>
 
@@ -82,13 +85,13 @@ Either way, there will always be primes not included in any list, regardless of 
 
 </p>
 
+<b>References:</b>
 
 
 
+<b>Bibliography:</b>
 
-
-<b>Notes:</b>
-
-[Proof Techniques](https://cs.stanford.edu/~jtysu/proofs.pdf) - good overview with examples.
+<p id="note1">[1] Hammack, R. (1922) <i><a href="https://www.people.vcu.edu/~rhammack/BookOfProof/Main.pdf ">Book of Proof</a></i>: (Princeton University Press).</p>
+Good overview with examples of proofs.
 
 [Guide to Proofs](https://web.stanford.edu/class/archive/cs/cs103/cs103.1164/handouts/070%20Guide%20to%20Proofs.pdf) - more detailed than the above. Includes proving the result of games.
